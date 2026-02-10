@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-02-10 15:47 UTC</small>
+            <small>Updated: 2026-02-10 20:08 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,60 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2026-21513</strong>: Microsoft MSHTML Framework contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2026-21525</strong>: Microsoft Windows Remote Access Connection Manager contains a NULL pointer dereference that could allow an unauthorized attacker to deny service locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2026-21510</strong>: Microsoft Windows Shell contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network. </p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2026-21533</strong>: Microsoft Windows Remote Desktop Services contains an improper privilege management vulnerability that could allow an authorized attacker to elevate privileges locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2026-21519</strong>: Microsoft Desktop Windows Manager contains a type confusion vulnerability that could allow an authorized attacker to elevate privileges locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Office </h3>
+            <p><strong>CVE-2026-21514</strong>: Microsoft Office Word contains a reliance on untrusted inputs in a security decision vulnerability that could allow an authorized attacker to elevate privileges locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-10</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
         <div class="card ">
             <h3>Office </h3>
             <p><strong>CVE-2026-21509</strong>: Microsoft Office contains a security feature bypass vulnerability in which reliance on untrusted inputs in a security decision in Microsoft Office could allow an unauthorized attacker to bypass a security feature locally. Some of the impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.</p>
@@ -430,60 +484,6 @@
             <p><strong>CVE-2024-49138</strong>: Microsoft Windows Common Log File System (CLFS) driver contains a heap-based buffer overflow vulnerability that allows a local attacker to escalate privileges.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2024-12-10</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2024-43451</strong>: Microsoft Windows contains an NTLMv2 hash spoofing vulnerability that could result in disclosing a user's NTLMv2 hash to an attacker via a file open operation. The attacker could then leverage this hash to impersonate that user.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-11-12</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2024-49039</strong>: Microsoft Windows Task Scheduler contains a privilege escalation vulnerability that can allow an attacker-provided, local application to escalate privileges outside of its AppContainer, and access privileged RPC functions.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-11-12</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card critical">
-            <h3>SharePoint <span class="tag msp-badge">CRITICAL INFRA</span></h3>
-            <p><strong>CVE-2024-38094</strong>: Microsoft SharePoint contains a deserialization vulnerability that allows for remote code execution.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-10-22</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows  </h3>
-            <p><strong>CVE-2024-30088</strong>: Microsoft Windows Kernel contains a time-of-check to time-of-use (TOCTOU) race condition vulnerability that could allow for privilege escalation. </p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-10-15</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2024-43573</strong>: Microsoft Windows MSHTML Platform contains an unspecified spoofing vulnerability which can lead to a loss of confidentiality.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-10-08</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2024-43572</strong>: Microsoft Windows Management Console contains unspecified vulnerability that allows for remote code execution.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-10-08</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
