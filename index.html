@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-02-12 14:39 UTC</small>
+            <small>Updated: 2026-02-12 19:53 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,15 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card ">
+            <h3>Configuration Manager </h3>
+            <p><strong>CVE-2024-43468</strong>: Microsoft Configuration Manager contains an SQL injection vulnerability. An unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to the target environment which are processed in an unsafe manner enabling the attacker to execute commands on the server and/or underlying database.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-02-12</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
         <div class="card ">
             <h3>Windows </h3>
             <p><strong>CVE-2026-21513</strong>: Microsoft MSHTML Framework contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network.</p>
@@ -475,15 +484,6 @@
             <p><strong>CVE-2024-35250</strong>: Microsoft Windows Kernel-Mode Driver contains an untrusted pointer dereference vulnerability that allows a local attacker to escalate privileges.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2024-12-16</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2024-49138</strong>: Microsoft Windows Common Log File System (CLFS) driver contains a heap-based buffer overflow vulnerability that allows a local attacker to escalate privileges.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2024-12-10</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
