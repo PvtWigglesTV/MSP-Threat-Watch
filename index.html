@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-04-13 12:57 UTC</small>
+            <small>Updated: 2026-04-13 18:58 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,42 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card ">
+            <h3>Visual Basic for Applications (VBA) </h3>
+            <p><strong>CVE-2012-1854</strong>: Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-04-13</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2025-60710</strong>: Microsoft Windows contains a link following vulnerability that allows for privilege escalation</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-04-13</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card critical">
+            <h3>Exchange Server <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2023-21529</strong>: Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-04-13</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2023-36424</strong>: Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-04-13</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
         <div class="card critical">
             <h3>SharePoint <span class="tag msp-badge">CRITICAL INFRA</span></h3>
             <p><strong>CVE-2026-20963</strong>: Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.</p>
@@ -448,42 +484,6 @@
             <p><strong>CVE-2025-21391</strong>: Microsoft Windows Storage contains a link following vulnerability that could allow for privilege escalation. This vulnerability could allow an attacker to delete data including data that results in the service being unavailable.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-02-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Office Outlook </h3>
-            <p><strong>CVE-2024-21413</strong>: Microsoft Outlook contains an improper input validation vulnerability that allows for remote code execution. Successful exploitation of this vulnerability would allow an attacker to bypass the Office Protected View and open in editing mode rather than protected mode.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-02-06</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>.NET Framework </h3>
-            <p><strong>CVE-2024-29059</strong>: Microsoft .NET Framework contains an information disclosure vulnerability that exposes the ObjRef URI to an attacker, ultimately enabling remote code execution.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-02-04</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-21335</strong>: Microsoft Windows Hyper-V NT Kernel Integration VSP contains a use-after-free vulnerability that allows a local attacker to gain SYSTEM privileges.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-01-14</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-21334</strong>: Microsoft Windows Hyper-V NT Kernel Integration VSP contains a use-after-free vulnerability that allows a local attacker to gain SYSTEM privileges.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-01-14</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
