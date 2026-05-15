@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-05-15 13:25 UTC</small>
+            <small>Updated: 2026-05-15 19:14 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,15 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card critical">
+            <h3>Microsoft <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-42897</strong>: Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-15</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
         <div class="card ">
             <h3>Windows </h3>
             <p><strong>CVE-2026-32202</strong>: Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.</p>
@@ -475,15 +484,6 @@
             <p><strong>CVE-2025-26633</strong>: Microsoft Windows Management Console (MMC) contains an improper neutralization vulnerability that allows an unauthorized attacker to bypass a security feature locally.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2018-8639</strong>: Microsoft Windows Win32k contains an improper resource shutdown or release vulnerability that allows for local, authenticated privilege escalation. An attacker who successfully exploited this vulnerability could run arbitrary code in kernel mode.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-03</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
