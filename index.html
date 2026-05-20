@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-05-20 14:30 UTC</small>
+            <small>Updated: 2026-05-20 19:59 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,60 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card ">
+            <h3>Windows </h3>
+            <p><strong>CVE-2008-4250</strong>: Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>DirectX </h3>
+            <p><strong>CVE-2009-1537</strong>: Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Internet Explorer </h3>
+            <p><strong>CVE-2010-0249</strong>: Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card ">
+            <h3>Internet Explorer </h3>
+            <p><strong>CVE-2010-0806</strong>: Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card critical">
+            <h3>Defender <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-41091</strong>: Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
+        <div class="card critical">
+            <h3>Defender <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-45498</strong>: Microsoft Defender contains an unspecified vulnerability that allows for denial of service.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-05-20</span>
+                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
+            </div>
+        </div>
+        
         <div class="card critical">
             <h3>Microsoft <span class="tag msp-badge">CRITICAL INFRA</span></h3>
             <p><strong>CVE-2026-42897</strong>: Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.</p>
@@ -430,60 +484,6 @@
             <p><strong>CVE-2025-29824</strong>: Microsoft Windows Common Log File System (CLFS) Driver contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-04-08</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24993</strong>: Microsoft Windows New Technology File System (NTFS) contains a heap-based buffer overflow vulnerability that allows an unauthorized attacker to execute code locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24991</strong>: Microsoft Windows New Technology File System (NTFS) contains an out-of-bounds read vulnerability that allows an authorized attacker to disclose information locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24985</strong>: Microsoft Windows Fast FAT File System Driver contains an integer overflow or wraparound vulnerability that allows an unauthorized attacker to execute code locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24984</strong>: Microsoft Windows New Technology File System (NTFS) contains an insertion of sensitive Information into log file vulnerability that allows an unauthorized attacker to disclose information with a physical attack. An attacker who successfully exploited this vulnerability could potentially read portions of heap memory.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24983</strong>: Microsoft Windows Win32 Kernel Subsystem contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-26633</strong>: Microsoft Windows Management Console (MMC) contains an improper neutralization vulnerability that allows an unauthorized attacker to bypass a security feature locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-03-11</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
