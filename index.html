@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-07-14 13:02 UTC</small>
+            <small>Updated: 2026-07-14 18:58 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,24 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card critical">
+            <h3>Active Directory Federation Services <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-56155</strong>: Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-07-14</span>
+                <strong>Action:</strong> Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+            </div>
+        </div>
+        
+        <div class="card critical">
+            <h3>SharePoint Server <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-56164</strong>: Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-07-14</span>
+                <strong>Action:</strong> Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+            </div>
+        </div>
+        
         <div class="card critical">
             <h3>SharePoint Server <span class="tag msp-badge">CRITICAL INFRA</span></h3>
             <p><strong>CVE-2026-45659</strong>: Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.</p>
@@ -466,24 +484,6 @@
             <p><strong>CVE-2025-32701</strong>: Microsoft Windows Common Log File System (CLFS) Driver contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-05-13</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-30400</strong>: Microsoft Windows DWM Core Library contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-05-13</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Windows </h3>
-            <p><strong>CVE-2025-24054</strong>: Microsoft Windows NTLM contains an external control of file name or path vulnerability that allows an unauthorized attacker to perform spoofing over a network.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-04-17</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
             </div>
         </div>
