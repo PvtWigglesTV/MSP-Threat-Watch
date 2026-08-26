@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-08-26 12:25 UTC</small>
+            <small>Updated: 2026-08-26 19:29 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,15 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card critical">
+            <h3>SQL Server <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2019-1068</strong>: Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-08-26</span>
+                <strong>Action:</strong> Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+            </div>
+        </div>
+        
         <div class="card critical">
             <h3>Internet Key Exchange (IKE) Service Extensions <span class="tag msp-badge">CRITICAL INFRA</span></h3>
             <p><strong>CVE-2026-33824</strong>: Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.</p>
@@ -475,15 +484,6 @@
             <p><strong>CVE-2025-49706</strong>: Microsoft SharePoint contains an improper authentication vulnerability that allows an authorized attacker to perform spoofing over a network. Successfully exploitation could allow an attacker to view sensitive information and make some changes to disclosed information. This vulnerability could be chained with CVE-2025-49704. CVE-2025-53771 is a patch bypass for CVE-2025-49706, and the updates for CVE-2025-53771 include more robust protection than those for CVE-2025-49706.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-07-22</span>
-                <strong>Action:</strong> Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.
-            </div>
-        </div>
-        
-        <div class="card critical">
-            <h3>SharePoint <span class="tag msp-badge">CRITICAL INFRA</span></h3>
-            <p><strong>CVE-2025-53770</strong>: Microsoft SharePoint Server on-premises contains a deserialization of untrusted data vulnerability that could allow an unauthorized attacker to execute code over a network. This vulnerability could be chained with CVE-2025-53771. CVE-2025-53770 is a patch bypass for CVE-2025-49704, and the updates for CVE-2025-53770 include more robust protection than those for CVE-2025-49704.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-07-20</span>
                 <strong>Action:</strong> Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.
             </div>
         </div>
