@@ -23,7 +23,7 @@
     <body>
         <div style="display:flex; justify-content:space-between; align-items:center;">
             <h1>Managed Workspace Threat Watch</h1>
-            <small>Updated: 2026-09-25 10:44 UTC</small>
+            <small>Updated: 2026-09-25 16:03 UTC</small>
         </div>
 
         <div class="section">
@@ -38,6 +38,15 @@
             <h2>Active Exploitations (CISA KEV)</h2>
             
     
+        <div class="card critical">
+            <h3>SharePoint <span class="tag msp-badge">CRITICAL INFRA</span></h3>
+            <p><strong>CVE-2026-65660</strong>: Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.</p>
+            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
+                <span class="tag">Added: 2026-09-25</span>
+                <strong>Action:</strong> Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.
+            </div>
+        </div>
+        
         <div class="card ">
             <h3>Windows </h3>
             <p><strong>CVE-2026-81963</strong>: Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.</p>
@@ -473,15 +482,6 @@
         <div class="card ">
             <h3>Office </h3>
             <p><strong>CVE-2007-0671</strong>: Microsoft Office Excel contains a remote code execution vulnerability that can be exploited when a specially crafted Excel file is opened. This malicious file could be delivered as an email attachment or hosted on a malicious website. An attacker could leverage this vulnerability by creating a specially crafted Excel file, which, when opened, allowing an attacker to execute remote code on the affected system.</p>
-            <div style="margin-top:10px; font-size:0.9rem; color:#666;">
-                <span class="tag">Added: 2025-08-12</span>
-                <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
-            </div>
-        </div>
-        
-        <div class="card ">
-            <h3>Internet Explorer </h3>
-            <p><strong>CVE-2013-3893</strong>: Microsoft Internet Explorer contains a memory corruption vulnerability that allows for remote code execution. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.</p>
             <div style="margin-top:10px; font-size:0.9rem; color:#666;">
                 <span class="tag">Added: 2025-08-12</span>
                 <strong>Action:</strong> Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.
